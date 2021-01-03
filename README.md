@@ -1,5 +1,6 @@
 # API Documentation
-# Link =>```https://auth-backend-api.herokuapp.com/api```
+# Link
+```https://auth-backend-api.herokuapp.com/api```
 
 ## ```/users```
 
