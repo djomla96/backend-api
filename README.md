@@ -1,14 +1,15 @@
 # API Documentation
+```https://auth-backend-api.herokuapp.com/api```
 
 ## ```/users```
 
-# POST /login
+# POST ```/login```
  ``` returns user token```
  ``` { 
  "email": "example@gmail.com", 
  "password": "enter password"
  ```
-# POST /register
+# POST ```/register```
  ``` returns registered user (Object)```
  ``` { 
   "username": "enter username", 
@@ -17,7 +18,7 @@
   "password2": "confirm password" 
   ```
 
-# POST /current
+# POST ```/current```
  ``` returns current logged in user (Object)```
 ```{
 "token": "Bearer + token"
